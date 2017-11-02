@@ -11,7 +11,7 @@ LinkedIn top skills dataset identifies the skills which are currently, or have b
 The dataset has four columns Skill, Country, Year and Rank and has over 800 rows of records. The dataset was taken from http://www.makeovermonday.co.uk/data/  and the source of publishing the dataset is LinkedIn’s Annual Top Skills report for the year 2014, 2015 and 2016. The most important objective in analyzing this dataset is to ascertain the most crucial and emerging fact that the Data Analytics and virtualization skills are becoming higher in demand and their respective ranks are therefore increasing in a range of ranks from 1 to 25 used in the dataset.
 The dataset is being analyzed in Python version 3 using Jupyter Notebook which is attached as part of this submission. Analyzing the dataset in Python indicates that there are as such no errors in the data itself and there are no missing or null values. Ascertaining the datatypes of the columns indicates that “Year” and “Rank” columns are integer type and “Skills” and “Country” columns are of object types. We also used Python’s matplotlib library to plot some visuals in Jupyter Notebook. The visuals made in Tableau are attached separately as a link to Tableau Public. As part of the requirement of Redesign Project, the critique of one of the existing visuals of the LinkedIn Top Skills Dataset is as follows:
 
-Tableau’s Existing Visual of the Dataset:
+                                                 Tableau’s Existing Visual of the Dataset:
 https://public.tableau.com/en-us/s/gallery/top-linkedin-skills-2016
 
 <img width="1050" alt="linkedindashboard 1" src="https://user-images.githubusercontent.com/31932632/32347100-d2c07464-bfcc-11e7-9cf2-c915d5883609.png">
