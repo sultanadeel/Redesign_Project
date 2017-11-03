@@ -5,13 +5,20 @@ https://public.tableau.com/profile/muhammad.adeel3420#!/vizhome/Project_Redesign
 
 LinkedIn Top Skills Dataset
 
-Dataset Description:
+                                                     Project Statement:
+                                                     
+       After performing the necessary Data Wrangling and cleaning in Python Jupyter Notebook, we created several intermediate Tableau visualizations and the final box blot visual to pursuade our audience towards satisfying the claim that "Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing."
+                                                     
+       The existing Tableau Public visualization that i am using for comparison does not explicitly state any claim as such, it just states; " Which LinkedIn skills are hot" and " The most in-demand skills in 2016 for 14 different countries" and " What percentage of countries have these LinkedIn skills in their top 10 skills" . It just focuses on the countries aspect of possessing top skills. However, I tried to narrow down by excluding skills like mining and commodities, litigation and lawsuits, Social Media Marketing etc. and tried to focus more on technology related skills. My final viz is expected to be more persuasive as it  clearly identifies the improving trend of skills moving up the ranking ladder
 
-LinkedIn top skills dataset identifies the skills which are currently, or have been, in demand based on their respective assigned ranks. The skills are ranked differently in every country and some countries prioritize a certain skill more or less as compared to other nations. The dataset also categorizes the skills on yearly basis and the period from 2014 to 2016 inclusively is used as a framework for analyzing the top skills. Moreover, LinkedIn today is the most widely used technology across the globe and is the most preferred platform to get connected, noticed and evaluated by recruiters, companies and even universities. Therefore, this dataset aims to analyze the pattern, relationships and trends in the professional skills on the basis of which skills are highly regarded and in demand versus those skills which are only focused towards a certain niche of the applicants and in demand only in a few countries.
 
-The dataset has four columns Skill, Country, Year and Rank and has over 800 rows of records. The dataset was taken from http://www.makeovermonday.co.uk/data/  and the source of publishing the dataset is LinkedIn’s Annual Top Skills report for the year 2014, 2015 and 2016. The most important objective in analyzing this dataset is to ascertain the most crucial and emerging fact that the Data Analytics and virtualization skills are becoming higher in demand and their respective ranks are therefore increasing in a range of ranks from 1 to 25 used in the dataset.
+                                                   Dataset Description:
 
-The dataset is being analyzed in Python version 3 using Jupyter Notebook which is attached as part of this submission. Analyzing the dataset in Python indicates that there are as such no errors in the data itself and there are no missing or null values. Ascertaining the datatypes of the columns indicates that “Year” and “Rank” columns are integer type and “Skills” and “Country” columns are of object types. We also used Python’s matplotlib library to plot some visuals in Jupyter Notebook. The visuals made in Tableau are attached separately as a link to Tableau Public. As part of the requirement of Redesign Project, the critique of one of the existing visuals of the LinkedIn Top Skills Dataset is as follows:
+LinkedIn top skills dataset identifies the skills which are currently, or have been, in demand based on their respective assigned ranks. The skills are ranked differently in every country and some countries prioritize a certain skill more or less as compared to other nations. The dataset also categorizes the skills on yearly basis and the period from 2014 to 2016 inclusively is used as a framework for analyzing the top skills. Moreover, LinkedIn today is the most widely used technology across the globe and is the most preferred platform to get connected, noticed and evaluated by recruiters, companies and even universities. Therefore, this dataset aims to analyze the patterns, relationships and trends in the professional skills on the basis of which skills are highly regarded and in demand versus those skills which are only focused towards a certain niche of the applicants and in demand only in a few countries.
+
+The dataset has four columns Skill, Country, Year and Rank and has over 800 rows of records. The dataset was taken from http://www.makeovermonday.co.uk/data/  and the source of publishing the dataset is LinkedIn’s Annual Top Skills report for the year 2014, 2015 and 2016. The most important objective in analyzing this dataset is to ascertain and confirm the claim that the Statistical Analysis,Data Analytics and Cloud Computing technologies are becoming top ranked LinkedIn skills and therefore their demand is increasing.The ranking range used in the dataset is from 1 to 25 where 1 indicates the highest ranked skill.
+
+The dataset is being analyzed in Python version 3 using Jupyter Notebook which is attached as part of this submission. Analyzing the dataset in Python indicates that there are as such no errors in the data itself and there are no missing or null values. Ascertaining the datatypes of the columns indicates that “Year” and “Rank” columns are integer type and “Skills” and “Country” columns are of object types. We also used Python’s matplotlib library to plot some visuals in Jupyter Notebook,results of which are attached in the Jupyter notebook. The visuals made in Tableau are attached separately as a link to Tableau Public. As part of the requirement of Redesign Project, the critique of one of the existing visuals of the LinkedIn Top Skills Dataset is as follows:
 
                                                  Tableau’s Existing Visual of the Dataset:
 https://public.tableau.com/en-us/s/gallery/top-linkedin-skills-2016
@@ -20,11 +27,11 @@ https://public.tableau.com/en-us/s/gallery/top-linkedin-skills-2016
 
 The above Figure is the existing Tableau visual on the Dataset. It analyzes which LinkedIn skills are in demand among 14 different countries and the percentage of countries having the specific mentioned skill in their top 10 skills. The visual shows beyond doubt that Statistical Analysis and Data Mining is clearly among the top 10 skills of all the countries , proving the fact that Data Analysis is emerging as a very demanding and attractive field both in terms of recruitment as well as for prospective students pursuing educational degrees. The visual also compares the percentage difference in the mentioned skill from 2014 and it shows that almost all Data Mining, Visualization, Cloud computing and virtualization skills are constantly moving up in the ranks and more and more countries are acquiring them in order to grow and prosper economically. 
 
-However, the visual provides a lot of information for the audience to grasp, as it mentions 38 different skills, many of which somehow overlap in terms of the field and area they refer to. Skills like Retail Operations, Renewable and sustainable energy, Mining and Commodities, Foreign Language Translation and Economics could have been excluded from the visual or could have been include in a separate category. The reason is that the title of the visual is “Which LinkedIn Skills are hot” so only those skills which are possessed by majority of the countries among their top ten skills, should have been incorporated in designing the visual. The primary objective is to show the most important and emerging skills including Data and technology related and not all of the skills. The visualization is made pretty impressively, however, some of the skills could have been excluded in making it a more concise and easy to be read by the concerned audience.
+However, the visual provides a lot of information for the audience to grasp, as it mentions 38 different skills, many of which somehow overlap in terms of the field and area they refer to. Skills like Retail Operations, Renewable and sustainable energy, Mining and Commodities, Foreign Language Translation and Economics could have been excluded from the visual or may have been included in a separate category. The reason is that the title of the visual is “Which LinkedIn Skills are hot” so only those skills which are possessed by majority of the countries among their top ten skills, should have been incorporated in designing the visual. The primary objective is to show the most important and emerging skills including Data and technology related and not all of the skills. The visualization is made pretty impressively, however, some of the skills could have been excluded in making it a more concise and easy to be read by the concerned audience.
 
 The visualization shows that on average 75% of the countries used in the dataset have technology and Data Analytics skills among their Top 10 skills, and each of those nations have witnessed a double digit growth in the mentioned skills growing in popularity and demand. Skills which have grown most rapidly from 2014 onwards are Mobile Development, Statistical Analysis & Data Mining, and User Interface Design, this shows the widespread usage of smart devices by consumers and therefore the increasing reliance of companies on the designing and development of solutions utilizing such skills. When I redesigned this dataset in Tableau, it was my endeavor to exclude those skills which are not related to our primary objective that Data Skills are increasing in demand, thereby avoiding “data vomit” and clutter in the Tableau visual and providing clarity and simplicity in persuading my audience towards the claim. This is done using Tableau Box Plot visualization which is discussed and analyzed as the final visualization in the end of this document.
 
-                                                          Redesign Project Tableau Visuals:
+                                                 Redesign Project Tableau Visuals:
  
  <img width="943" alt="project_redesign 1" src="https://user-images.githubusercontent.com/31932632/32346183-c6932be4-bfc9-11e7-9c3a-ca04f37b7790.png">
  
@@ -47,14 +54,14 @@ The Tableau visual in Fig 1.2 shows the trend of skills and their respective ran
 
 <img width="933" alt="project_redesign 4" src="https://user-images.githubusercontent.com/31932632/32347359-972ed066-bfcd-11e7-9e8d-00e007f496d5.png">
  
-                                                                  Fig 1.3
+                                                                Fig 1.3
                                                                   
 The above Tableau visual in Fig 1.3 compares the trends of various top data skills from 2014 to 2016, it shows the country wise trend of the top LinkedIn skills. The visual is simple and easy to understand by the viewer, it clearly dominates the fact that Statistical Analysis & Data Mining and Cloud & Distributed Computing are fast gearing up as two top notch skills among all of the different countries in our dataset. China is, however, one country where the top skill such as Statistical Analysis & Data Mining has decreased in its rank from 2 in 2015 to 3 in 2016, whereas a skill like Social Media Marketing has gained popularity in China from 15 in 2015 to the rank of 7 in 2016. In U.S. more emphasis is on outsourcing software development to other countries as shown by the fact in the visual that Java Development is becoming less popular as it became no. 10 in ranking in the year 2016. However, Algorithm Design is becoming more popular in the U.S. as it a component part of the Statistical Data Analysis which is a top skill in the U.S. 
 This visualization is created as one of the several visualizations towards creating the final one, however, bar chart is not an ideal representation for analyzing ranks 
 
 <img width="1005" alt="project_redesign 3" src="https://user-images.githubusercontent.com/31932632/32346185-c6c7d434-bfc9-11e7-806c-dab4a58329fe.png">
  
-                                                                  Fig 1.4
+                                                              Fig 1.4
 
 Claim: Increasing popularity in top skills is encouraging the previously less popular skills to become more demanding and rewarding
 
@@ -64,7 +71,7 @@ One of the most effective ways to visualize changes in ranks over time is to cre
 
  <img width="943" alt="project_redesign 5" src="https://user-images.githubusercontent.com/31932632/32346188-c6faa436-bfc9-11e7-8b75-e7dd74aaa09e.png">
  
-                                                                 Fig 1.5
+                                                              Fig 1.5
                                                                  
 Claim: Cloud & Statistical Data Mining skills are consistently ranked higher among all the countries as shown by the positive skewness of their respective boxplots
 
@@ -72,7 +79,7 @@ Warrant:
 
 Tableau visual in Fig 1.4 shows the distribution of skills with reference to the ranks. The box plot shows that there is a greater degree of variation in the distribution of data for most of the skills. The skills which are most popular in demand in all the countries including Cloud and Distributed Computing and Statistical Analysis and Data Mining have most of the observations concentrated on the low end of the ranking scale indicating the fact that these skills occupy the top ranks . Cloud and Data Mining skills ranking distribution is skewed right and have positive skewness, their range of observations is smaller than the ranges of other skills. Pear/Python/Ruby skill set is also skewed to the right and has positive skewness, however, the range of this skillset is higher as compared to the top 2 skills Cloud and Data Mining, and this is because due to the rising popularity and growing demand of Data skills, tools like Python also increasing in demand. The positive skewness of Data Mining and Cloud skills also indicate most of the data points are spread out in the lower 1st and 2nd quartile ranges which is clearly shown in the dataset as these skills are on average ranked among the top ranked skills consistently in all the different countries in the dataset.
 
-                                                          Final Visualization:
+                                                       Final Visualization:
 
 <img width="943" alt="project_redesign 6" src="https://user-images.githubusercontent.com/31932632/32346189-c7263466-bfc9-11e7-9e49-b683a9264cda.png">
  
@@ -81,7 +88,8 @@ Claim: Data and Technology skills are increasing in demand
 Warrant:
 
 After creating several Tableau visualizations, our final visual is as above which is created as part of this Project Redesign and creating it is an endeavor towards compare it with the existing visualization of LinkedIn Top Skills dataset available at https://public.tableau.com/en-us/s/gallery/top-linkedin-skills-2016. Our final visual is better than the one on Tableau Public because we have excluded those skills which are not crucial in analyzing and supporting our claim that Data skills are becoming popular. Our final visual is clear and easy to understand by the audience as it shows in a straightforward way, the respective trend of skills over the years using ranks as a measurement criteria for developing the boxplots which are intuitive and quite persuasive towards convincing the audience.
-Skills like Data Warehousing, Data Mining, Cloud Computing, Java and Python are all showing a common trend of gaining top ranks and moving up the rank ladder from 2014 to 2016. This clearly and conspicuously satisfies our ultimate claim of this Redesign Project that “Data and Technology skills are increasing in demand.”
+Skills like Data Warehousing, Data Mining, Cloud Computing, Java and Python are all showing a common trend of gaining top ranks and moving up the rank ladder from 2014 to 2016. This clearly and conspicuously satisfies our ultimate claim of this Redesign Project that 
+"Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing. 
 
 LinkedIn Top skills dataset has a lot of dimensions and a limited number of measures to analyze trends, relationships and patterns in skill ranking. However, boxplot is one ideal visual that we developed in Tableau for analyzing which skills are increasing in demand and which are becoming less popular.
 
