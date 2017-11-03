@@ -10,7 +10,7 @@ LinkedIn Top Skills Dataset
 After performing the necessary Data Wrangling and cleaning in Python Jupyter Notebook, we created several intermediate Tableau visualizations and the final box blot visual to persuade our audience towards satisfying the claim that "Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing."
                                                      
 The existing Tableau Public visualization that i am using for comparison does not explicitly state any claim as such, it just states; 
-" Which LinkedIn skills are hot" and " The most in-demand skills in 2016 for 14 different countries" and " What percentage of countries have these LinkedIn skills in their top 10 skills" . It just focuses on the countries aspect of possessing top skills. However, I tried to narrow down by excluding skills like mining and commodities, litigation and lawsuits, Social Media Marketing etc. and tried to focus more on technology related skills. My final viz is expected to be more persuasive as it clearly identifies the improving trend of skills that have been constantly moving up the ranking ladder from 2014 to 2016.
+" Which LinkedIn skills are hot" , " The most in-demand skills in 2016 for 14 different countries" and " What percentage of countries have these LinkedIn skills in their top 10 skills" . It just focuses on the countries aspect of possessing top skills. However, I tried to narrow down by excluding skills like mining and commodities, litigation and lawsuits, Social Media Marketing etc. and tried to focus more on technology related skills as the intended audience of my visual is somebody who is technology savvy and interested in technology related skills. My final viz is expected to be more persuasive as it clearly identifies the improving trend of skills that have been constantly moving up the ranking ladder from 2014 to 2016.
 
 
 
@@ -86,7 +86,7 @@ Tableau visual in Fig 1.4 shows the distribution of skills with reference to the
 
 <img width="943" alt="project_redesign 6" src="https://user-images.githubusercontent.com/31932632/32346189-c7263466-bfc9-11e7-9e49-b683a9264cda.png">
  
-Claim: Data and Technology skills are increasing in demand
+Claim: "Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing."
 
 Warrant:
 
