@@ -5,11 +5,12 @@ https://public.tableau.com/profile/muhammad.adeel3420#!/vizhome/Project_Redesign
 
 LinkedIn Top Skills Dataset
 
-                                                     Project Statement:
+                                                    Project Statement:
                                                      
        After performing the necessary Data Wrangling and cleaning in Python Jupyter Notebook, we created several intermediate Tableau visualizations and the final box blot visual to pursuade our audience towards satisfying the claim that "Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing."
                                                      
        The existing Tableau Public visualization that i am using for comparison does not explicitly state any claim as such, it just states; " Which LinkedIn skills are hot" and " The most in-demand skills in 2016 for 14 different countries" and " What percentage of countries have these LinkedIn skills in their top 10 skills" . It just focuses on the countries aspect of possessing top skills. However, I tried to narrow down by excluding skills like mining and commodities, litigation and lawsuits, Social Media Marketing etc. and tried to focus more on technology related skills. My final viz is expected to be more persuasive as it  clearly identifies the improving trend of skills moving up the ranking ladder
+
 
 
                                                    Dataset Description:
