@@ -84,7 +84,7 @@ Tableau visual in Fig 1.4 shows the distribution of skills with reference to the
 
                                               Final Visualization:
 
-<img width="943" alt="project_redesign 6" src="https://user-images.githubusercontent.com/31932632/32346189-c7263466-bfc9-11e7-9e49-b683a9264cda.png">
+<img width="1048" alt="final_viz" src="https://user-images.githubusercontent.com/31932632/32401601-76ea0a8e-c0cf-11e7-9e92-c367e1e18e88.png">
  
 Claim: "Statistical Analysis, Data Mining and Cloud Computing are becoming top ranked LinkedIn skills and therefore their demand is increasing."
 
